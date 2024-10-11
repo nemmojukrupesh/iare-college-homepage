@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    height: 120px;
+    width: 100%;
+    background-color:#040448;
+
+}
+
+.white{  
+    height: 40px;
+    width: 100%;
+    background-color:white;
+
+}
+.blue{  
+    height: 20px;
+    width: 100%;
+    background-color:#030344;
+}
+.yellow{  
+    height: 20px;
+    width: 100%;
+    background-color:rgba(246, 174, 6, 0.93);
+}
+.down{  
+    height: 20px;
+    width: 100%;
+    background-color:rgb(127, 14, 14);
+
+}
+.white{
+        background-color: aliceblue;
+        overflow: hidden;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+}
+.white a{
+            
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 17px;
+        text-decoration: none;
+}
+.white a:hover{
+        background-color: aliceblue;
+        color: black;
+}
+.white a.active{
+        background-color: green;
+        color: white;
+}
+.center {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:50 %;
+}
+.active{
+    text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+<div>
+    <img src="https://www.iare.ac.in/sites/all/themes/iare/images/iare_header_logo.png" class="center">
+</div>
+<div class="white" >
+    <a href="home" class="active">Home</a>
+        <a href="about us">About us</a>
+        <a href="home" >Study with us</a>
+        <a href="home" >Approvals</a>
+        <a href="home" >Departments</a>
+        <a href="home" >Placements</a>
+        <a href="home" >Research</a>
+        <a href="home" >campus life</a>
+        <a href="home" >Study Services</a>
+        <a href="home" >IQAC</a>
+        <a href="home" >NAAC</a>
+    </div>
+
+<div class="blue">
+    </div>
+<div class="yellow">
+    </div>
+<div class="down">
+    </div>
+<div>
+    <img src="https://www.iare.ac.in/sites/all/themes/iare/images/banners/IARE_NIRF_Engineering.jpg" 
+    height="400%"; width="100%";>
+
+    
+</div>
+</body>
+</html>
